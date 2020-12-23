@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function ContentComponent(props) {
-    debugger;
     return (
         <div>
             <h1>User Name is: {props.employee.userName}</h1>

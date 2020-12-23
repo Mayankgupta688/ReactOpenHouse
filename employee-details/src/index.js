@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import EmployeeListDynamic from "./components/EmployeeListDynamic";
+import ContextList from "./hooks/ContextList";
 
-ReactDOM.render(<EmployeeListDynamic></EmployeeListDynamic>, document.getElementById("root"));
+ReactDOM.render(<ContextList></ContextList>, document.getElementById("root"));
 
