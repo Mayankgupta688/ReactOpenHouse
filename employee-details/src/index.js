@@ -1,7 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import ContextList from "./hooks/ContextList";
+import AppComponent from "./spa/AppComponent";
 
-ReactDOM.render(<ContextList></ContextList>, document.getElementById("root"));
+ReactDOM.render((
+    <>
+        <AppComponent></AppComponent>
+    </>
+), document.getElementById("root"));
 
